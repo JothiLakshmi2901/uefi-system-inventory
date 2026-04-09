@@ -167,7 +167,7 @@ fs0:\> SystemInventory.efi
 
 ---
 
-## 📸 Output Screenshots
+##  Output Screenshots
 
 > The following screenshots show the application running in the UEFI Shell environment.
 
