@@ -1,0 +1,29 @@
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = SystemInventory
+  FILE_GUID                      = e50928c9-f0ec-4604-9910-ac167ee6f7f8
+  MODULE_TYPE                    = UEFI_APPLICATION  
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain         
+
+[Sources]
+  SystemInventory.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  ShellPkg/ShellPkg.dec  
+  SystemInventoryPkg/SystemInventoryPkg.dec
+
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  UefiLib
+  ShellLib
+  BaseLib      
+  UefiBootServicesTableLib 
+  MemoryAllocationLib
+  PciSegmentLib
+
+[Protocols]
+  gEfiSmbiosProtocolGuid  
+  gEfiPciIoProtocolGuid  
+  gEfiShellParametersProtocolGuid 

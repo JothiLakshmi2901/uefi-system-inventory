@@ -1,0 +1,12 @@
+[Defines]
+  DEC_SPECIFICATION              = 0x00010005
+  PACKAGE_NAME                   = SystemInventoryPkg
+  PACKAGE_GUID                   = 11223344-5566-7788-99AA-BBCCDDEEFF00
+  PACKAGE_VERSION                = 0.1
+
+[Includes]
+ Include
+  
+[Guids]
+
+[Protocols]
