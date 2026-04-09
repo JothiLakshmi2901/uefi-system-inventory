@@ -91,7 +91,7 @@ The application initializes UEFI protocols at startup, then enters an interactiv
 
 ---
 
-## 🧠 Algorithm
+##  Algorithm
 
 ### Step 1 — Protocol Initialization & Environment Setup
 - Initialize UEFI Shell library via `ShellInitialize()`
